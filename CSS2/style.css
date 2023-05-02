@@ -1,14 +1,18 @@
+body{
+    background-color: aquamarine;
+}
 h1{
     font-size: 80px;
-    color: blue;
+    /*color hexadecimal*/
+    color: #970a0a;
 }
 
 a[href="www.google.com"]{
     color: blueviolet;
 }
 /*Selector por elemento*/
-a{
-    color: black;
+a{  /*color rgb*/
+    color: rgb(49, 153, 136);
 }
 /*Selector por elemento atributo**/
 img[src="https://blog.plazavea.com.pe/wp-content/uploads/2022/01/Ceviche-1200x675.jpg"]{
@@ -17,10 +21,16 @@ img[src="https://blog.plazavea.com.pe/wp-content/uploads/2022/01/Ceviche-1200x67
 p{
     font-size: xx-large;
 }
-/* Selector de elemento hijo */
+/* Selector de elemento hijo directo */
 div > p{
     font-size: small;
 }
+/*Selector de tipo descendente*/
+aside p{
+
+    color: hotpink;
+}
+
 /*Selector por id*/
 
 #parrafoAzul{

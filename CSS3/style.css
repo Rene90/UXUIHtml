@@ -1,0 +1,55 @@
+/*unidades
+ABSOLUTAS
+pixeles
+RELATIVAS (DE ACUERDO A ALGO MAS)
+vw view port width de acuerdo al ancho del display, asignamos un porcentaje
+vh view port height de acuerdo a la altura del display, asignamos un porcentaje
+em relativa al tamanio de letra del archivo html (BODY) e.g. si el font size es 3 pixeles, y la unida es 1 1em= 3px, 2em= 6px,
+rem relativa al tamanio de letra del elemento contenedor (root element) e.g. si el font size es 3 pixeles, y la unida es 1 1em= 3px, 2em= 6px,
+
+*/
+body{
+    font-size: 1 px;
+}
+/*Las dimensiones de un elemento son la suma total del padding, borde, margin y el width o height*/
+.caja{
+    width: 100px;
+    height: 100px;
+    /*padding es el espacio que se encuentra entre el borde del elemento y el contenido*/
+    padding-left: 40px;
+    padding-right: 40px;
+    /*margin es el espacio entre el borde del elemento y el siguiente elemento*/
+    margin-bottom: 40px;
+    background-color: salmon;
+    border: 5px solid black;
+    font-size: 20px;
+}
+.izquierda{
+    float:left;
+    background-color: green;
+}
+.derecha{
+    float: right;
+    background-color: tomato;
+}
+.viewport{
+    height: 30px;
+    width: 80px;
+    background-color: orange;
+}
+.seccion{
+    width: 50vw;
+    height: 33vh;
+    background-color: aqua;
+}
+.parrafo{
+    width: 200px;
+    clear: both;/*Clear me limpia los flotantes de los lados*/
+}
+section{
+    width: 100vw;
+    
+}
+.centro{
+    margin: auto;
+}
