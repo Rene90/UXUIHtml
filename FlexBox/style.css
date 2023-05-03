@@ -1,0 +1,41 @@
+.madre{
+    border: 4px solid black;
+    height: 200px;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    /*flex-direction: row-reverse;Me acomoda de manera inversa los elementos hijos*/
+    flex-direction: row;
+    justify-content: flex-end; /*los pega al final*/
+    justify-content: center; /*centra*/
+    justify-content: space-between; /*da espacio entre elementos*/
+    justify-content: space-around;/*mismo espacio entre los lados de los elementos*/
+    justify-content: space-evenly;/*divide el espacio en partes iguales*/
+    align-items: flex-start; /*Me alinea los elementos al principio*/
+    align-items: flex-end; /*Alinea al final*/
+    align-items: center;
+    align-items: stretch;/*Estira los hijos pero dependiendo del max height y mas width */
+    align-items: baseline;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-content: space-evenly
+    /*Es como justify content pero en el sentido contrario, si es row, me acomodara vertical, si column sera horizontal*/
+    /*column-gap: 50px;*//*controlas el espaciado entre elementos*/
+
+
+}
+.hijo{
+    border: 3px solid red;
+    height: 50px;
+    width: 50px;
+    /*max-height: 100%;
+    max-width: 100%;*/
+
+}
+.hijo2{
+    align-self: flex-end; /*Solo sirver si el padre no tiene align items*/
+}
+.alto{
+    height: 80px;
+}

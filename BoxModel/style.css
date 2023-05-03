@@ -1,0 +1,56 @@
+html{
+    font-size: 16px;
+}
+
+.encabezado{
+    font-style: italic;
+    color: rgb(165, 22, 22);
+    text-shadow: 3px 3px 5px #000;
+}
+
+.tarjeta{
+    position: relative;
+    box-sizing: border-box; /*El ancho ya incluye el padding y el borde (sin margens)*/
+    width: 18rem;
+    height: 30rem;
+    background-color: rgb(194, 84, 6);
+    border: .5rem solid orange;
+    float: left;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+
+
+}
+.imagen{
+    border-radius: .5rem .5rem 0 0;
+    max-width: 100%;
+}
+.contenidoCarta{
+    text-align: center;
+    color: #ffe224;
+}
+.titulo{
+    font-style: italic;
+    text-shadow: 1px 1px 1px #000;
+    color:  rgb(165, 22, 22);
+}
+.pieCarta{
+    font-size: .9rem;
+    display: block;
+
+    color: coral;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    /*transform: translate(-50% 0%);*/
+}
+.pieParrafo{
+    position: relative;
+    text-align: center;
+}
+
+.tarjeta:hover{
+    transform: translate(1vw) scale(110%);
+    transition: 1s;
+}
