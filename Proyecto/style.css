@@ -1,0 +1,152 @@
+:root{
+    --color-text: #031D5B;
+    --color-naranja: #F8765E;
+    --bcolor:#F2F2F2;
+    --buscador: #B6BBC9;
+    --fontsite: "sans-serif";
+}
+html{
+    font-family: 'Encode Sans', sans-serif;
+}
+body{
+    margin: 0;
+    background: var(--bcolor);
+    height: 100vh;
+    position: relative;
+    
+}
+header{
+    width:100%;
+    height:128px;
+}
+.headerdiv{
+    display:flex;
+    justify-content: center;
+}
+h2{
+    color: var(--color-naranja);
+}
+nav a{
+    text-decoration: none;
+    color: var(--color-text);
+
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenido{
+    width: 100%;
+}
+.contenidobuscador{
+    width:80%;
+    margin: auto;
+    position: relative;
+}
+.imagen{
+    height: 232px;
+    width:325;
+    margin: auto;
+    background-image: url("./assets/Screen.svg");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+.buscador{
+    width: 100%;
+  
+}
+.buscador input{
+    border: 1px solid var(--color-naranja);
+    border-radius: 5px;
+    padding:0 0 0 10px;
+    width: 100%;
+    height: 48px;
+    box-shadow: inset 0px 1px 4px rgba(0,0,0,.1);
+    
+}
+.buscador input::placeholder{
+    font-size: 16px;
+
+}
+.tache{
+    position: absolute;
+    right: 55px;
+    top:16px;
+}
+.linea{
+    position: absolute;
+    right: 44px;
+    top:16px;
+}
+.lupa{
+    position: absolute;
+    right: 12px;
+    top:16px;
+}
+.texto{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: var(--color-text);
+}
+h1{
+    font-weight: 800;
+
+}
+.texto p{
+    font-weight: 300;
+
+}
+.check{
+    
+    display: flex;
+    justify-content: flex-start;
+    width: 51%;
+}
+.check img{
+   
+    width: 16px;
+    margin-right: 8px;
+}
+.check p {
+    font-weight: 800;
+}
+.checks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button{
+    height: 60px;
+    width: 168px;
+    border-radius: 8px;
+    background-color: var(--color-text);
+    color: #F2F2F2;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.rating{
+    display: flex;
+    justify-content: center;
+}
+.rating img{
+    width:2%;
+}
+.rating p{
+    font-weight: 800;
+    margin-left: 5px;
+}
+footer{
+   
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+footer p{
+    color: var(--buscador);
+
+}

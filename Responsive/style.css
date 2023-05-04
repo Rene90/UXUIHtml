@@ -1,0 +1,70 @@
+:root{
+    /*colors*/
+    --color-rene:#ac0c99;
+
+}
+
+
+html{
+    font-size: 16px;
+}
+body{
+    background:rgb(251, 195, 117);
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: cornflowerblue;
+}
+.navegacion a{
+    padding: 1rem 0.5rem;
+    color: rgb(245, 96, 96);
+}
+
+.menu{
+    display: none;
+}
+.contenedor{
+    margin: 1rem;
+}
+.caja{
+    border: 2px solid black;
+    background: var(--color-rene);
+    width: 25%;
+    margin: .25rem;
+    float: left;
+}
+footer{
+    clear: both;
+}
+
+
+@media screen and (min-width:320px) and (max-width:798px){
+    body {
+        background: orange;
+        font-family: monospace;
+        color:black;
+        font-size:1.5rem;
+    }
+    .navegacion{
+        display:none;
+    }
+    .menu{
+        display: block;
+        text-align: center;
+    }
+    .caja{
+        width: 100%;
+        float: left;
+    }
+
+}
+/*MOBILE FIRST*/
+/*displays mobiles*/
+/*@media screen and (min-width:320px)*/
+/*displays medianos*/
+/*@media screen and (min-width:500px)*/
+/*@media screen and (min-width:700px)*/
+/*display desktop*/
+/*@media screen and (min-width:1024px)*/
+
